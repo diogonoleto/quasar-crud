@@ -1,4 +1,4 @@
-# Crud (processo)
+# Crud (crud)
 
 Crud app
 
@@ -14,18 +14,10 @@ npm install
 quasar dev
 ```
 
-### Lint the files
+#### Structure
 
-```bash
-npm run lint
-```
+- [live demo](dns-quasar-crud.web.app) - live demo
 
-### Build the app for production
 
-```bash
-quasar build
-```
 
-### Customize the configuration
 
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).

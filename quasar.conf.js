@@ -97,7 +97,7 @@ module.exports = function (/* ctx */) {
       }
     },
     cordova: {
-      id: 'dns.processo.com'
+      id: 'dns.crud.com'
     },
     capacitor: {
       hideSplashscreen: true
@@ -107,7 +107,7 @@ module.exports = function (/* ctx */) {
       packager: {
       },
       builder: {
-        appId: 'processo'
+        appId: 'crud'
       },
       nodeIntegration: true,
       extendWebpack (/* cfg */) {

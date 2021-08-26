@@ -522,7 +522,7 @@ export default {
     buscarProcess(v) {
       let self = this;
       self.$q.loading.show({
-        message: 'Buscando informações do processo...',
+        message: 'Buscando informações do crud...',
         backgroundColor: 'grey',
         spinner: QSpinnerFacebook,
         customClass: 'loader'
