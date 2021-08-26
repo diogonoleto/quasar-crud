@@ -1,0 +1,57 @@
+{
+  "name": "processo",
+  "version": "0.0.1",
+  "description": "Crud app",
+  "productName": "Crud",
+  "author": "Diogo Noleto <diogonoletodasilva@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@brazilian-utils/validators": "^0.1.9",
+    "@quasar/extras": "^1.10.4",
+    "@quasar/icongenie": "^2.3.3",
+    "core-js": "^3.6.5",
+    "drag-drop-touch": "^1.3.1",
+    "firebase": "^8.2.3",
+    "quasar": "^1.15.11",
+    "v-money": "^0.8.1",
+    "vue-currency-filter": "^5.2.0",
+    "vue-the-mask": "^0.11.1",
+    "vuelidate": "^0.7.6",
+    "vuex-persistedstate": "^4.0.0-beta.3",
+    "vuexfire": "^3.2.5"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.2.5",
+    "@quasar/quasar-app-extension-dotenv": "^1.1.0",
+    "@quasar/quasar-app-extension-qcalendar": "^3.3.4",
+    "@quasar/quasar-app-extension-qpdfviewer": "^1.0.0-beta.8",
+    "@quasar/quasar-app-extension-qscroller": "^1.1.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-vue": "^6.1.2",
+    "vue-avatar-component": "^1.3.1",
+    "workbox-webpack-plugin": "^5.1.4"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
